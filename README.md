@@ -22,5 +22,6 @@ HQ_Bot.py does all of the question capture and internet searching, and word coun
 model_predict.py just runs the keras neural network. It waits for a task from HQ_Bot, and returns the answer confidence for each option. 
 
 Training.ipynb is a jupyter notebook I used for training the neural network in between games. 
-the .log files are samples of the logs that were generated during games, showing the results of the various searches, and some of the vectors going in and out of the neural network for debugging. 
+
+The .LOG files are samples of the logs that were generated during games, showing the results of the various searches, and some of the vectors going in and out of the neural network for debugging. 
 
