@@ -17,3 +17,10 @@ How it worked:
 - The results are presented on the screen with a relative confidence for each answer. 
 Generally it took 4-5 seconds to do the above, which left me with about 5 seconds to decide if I agreed with the computer. 
 
+HQ_Bot.py and model_predict.py were run when I was playing the game. 
+HQ_Bot.py does all of the question capture and internet searching, and word counting. 
+model_predict.py just runs the keras neural network. It waits for a task from HQ_Bot, and returns the answer confidence for each option. 
+
+Training.ipynb is a jupyter notebook I used for training the neural network in between games. 
+the .log files are samples of the logs that were generated during games, showing the results of the various searches, and some of the vectors going in and out of the neural network for debugging. 
+
